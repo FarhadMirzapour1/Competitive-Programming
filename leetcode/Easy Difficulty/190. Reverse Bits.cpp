@@ -5,7 +5,7 @@ public:
         int power = 31;
 		
         while (n) {
-			int digit = (n&1) << power ;
+	    int digit = (n&1) << power ;
             ret = ret + digit;
             power--;
             n= n >> 1;
